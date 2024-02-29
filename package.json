@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "kipitup Web App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "pyodide": "^0.25.0"
   }
 }
