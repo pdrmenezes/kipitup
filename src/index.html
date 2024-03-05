@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <script type="module">
@@ -20,8 +21,16 @@
     <title>Kipitup</title>
   </head>
   <body>
-    <section class="flex flex-col items-center justify-center w-screen gap-20 h-screen bg-[#222]">
-      <h1 class="text-6xl text-white font-mono font-semibold">Kipitup</h1>
+    <section class="flex flex-col items-center justify-center w-screen gap-8 h-screen bg-[#222]">
+      <div class="flex flex-col">
+        <img
+          class="mx-auto w-[200px] h-auto"
+          style="margin-inline: auto"
+          src="./assets/final_b&W_image.png"
+          alt="Kipitup Logo"
+        />
+        <h1 class="text-6xl text-white font-mono font-semibold">Kipitup</h1>
+      </div>
 
       <div class="flex flex-col gap-4 justify-center w-[60vw] md:w-[40vw]" id="url_form">
         <label for="file_url" class="text-slate-200 cursor-pointer hover:text-slate-100">Please enter file url:</label>
